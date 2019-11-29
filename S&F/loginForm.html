@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width" , initial-scale="1">
+    <title>Survey Factory</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/survey factory css.css">
+</head>
+
+<body>
+    <style type="text/css">
+        .jumbotron {
+
+            background-color: white;
+            background-size: cover;
+            text-shadow: rgb(46, 139, 231) 0.1em 0.1em 0.1em;
+            color: rgb(22, 87, 153);
+            font-size: 50px;
+        }
+
+        .form {
+
+            color: rgb(22, 87, 153);
+        }
+    </style>
+
+
+    <!--네비게이션바-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="About us.html">Survey Factory</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="About us.html">About us</a></li>
+                    <li><a href="Register.html">Register</a></li>
+                    <li><a href="Participate.html">Participate</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="내용을 입력하세요.">
+                    </div>
+                    <button type="submit" class="btn btn-default">검색</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">Login / Join us<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="loginForm.html">Login</a></li>
+                            <li><a href="registerForm.html">Join us</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--점보트론-->
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="text-center">
+                <dt>SURVEY FACTORY</dt>
+            </h1>
+            <p class="text-center"></p>
+
+            <br>
+        </div>
+    </div>
+
+    <!--로그인폼-->
+    <div class="form">
+
+        <form class="form-horizontal">
+
+            <div class="form-group">
+                <label class="control-label col-sm-5" for="email">아이디 </label>
+                <div class="col-sm-2">
+                    <input type="email" class="form-control" id="email" placeholder="이메일을 입력하시오" name="email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-5" for="pwd">비밀번호</label>
+                <div class="col-sm-2">
+                    <input type="password" class="form-control" id="pwd" placeholder="비밀번호를 입력하시오" name="pwd">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-7 col-sm-9">
+                    <a class="btn btn-default" href="About us.html">로그인</a>
+                </div>
+            </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br>
+
+    <!--푸터-->
+    <footer style="background-color: lightslategrey; color: white;">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-sm-2" style="text-align: center;">
+                    <h5>Copyright &copy; 2019</h5>
+                    <h5>Survey Factory</h5>
+                </div>
+                <div class="col-sm-4">
+                    <h4>회사소개</h4>
+                    <p>Survey Factory는 구글폼을 다른 대학생들과 공유할 수 있는 사이트입니다.</p>
+                </div>
+                <div class="col-sm-2">
+                    <h4 style="text-align: center;">바로가기</h4>
+                    <div class="list-group">
+                        <a href="Register.html" class="list-group-item">Register</a>
+                        <a href="Participate.html" class="list-group-item">Participate</a>
+                        <a href="Contact.html" class="list-group-item">Contact</a>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <h4 style="text-align: center;">SNS</h4>
+                    <div class="list-group">
+                        <a href="https://www.facebook.com" class="list-group-item">Facebook</a>
+                        <a href="https://www.youtube.com" class="list-group-item">Youtube</a>
+                        <a href="http://seoultech.ac.kr" class="list-group-item">Seoultech</a>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <h4 style="text-align: center;">
+                        <span class="glyphicon glyphicon-user">&nbsp;정지용</span>
+                        <br>
+                        <span class="glyphicon glyphicon-earphone">&nbsp;홍제형</span>
+                        <br>
+                        <span class="glyphicon glyphicon-envelope">&nbsp;안진호</span>
+                        <br>
+                        <span class="glyphicon glyphicon-print">&nbsp;박은수</span>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

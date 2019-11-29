@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width" , initial-scale="1">
+    <title>Survey Factory</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/survey factory css.css">
+</head>
+
+<body>
+
+    <!--점보트론 스타일-->
+    <style type="text/css">
+        .jumbotron {
+
+            background-image: url('images/home-bg.jpg');
+            background-size: cover;
+            text-shadow: lightslategrey 0.2em 0.2em 0.2em;
+            color: lightslategrey;
+        }
+    </style>
+
+    <!--네비게이션바-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="About us.html">Survey Factory</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="About us.html">About us</a></li>
+                    <li><a href="Register.html">Register</a></li>
+                    <li><a href="Participate.html">Participate</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="내용을 입력하세요.">
+                    </div>
+                    <button type="submit" class="btn btn-default">검색</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">Login / Join us<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="loginForm.html">Login</a></li>
+                            <li><a href="registerForm.html">Join us</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--점보트론-->
+    <div class="container">
+        <div class="jumbotron">
+            <br>
+            <h1 class="text-center">Survey Factory</h1>
+            <p class="text-center"></p>
+            <br>
+            <p class="text-center"><a class="btn btn-primary btn-lg" href="Participate.html" role="button">설문참여하기</a>
+            </p>
+            <br>
+        </div>
+        <hr>
+        <!--모달-->
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Survey Factory 소개</h4>
+                <P>Survey Factory는 대학생들이 가장 많이 사용하는 <br>설문조사 방법인 구글설문지의 링크를 올릴 수 있는<br> 사이트입니다.</P>
+                <p><a class="btn btn-default" data-target="#modal" data-toggle="modal">자세히 알아보기</a></p>
+            </div>
+            <div class="col-md-4">
+                <h4>Survey Factory의 목표</h4>
+                <P>Survey Factory의 목표는 대학생들의 설문조사가 <br>보다 편리하고 효율적으로 이루어질 수 있도록<br> 하는 것입니다.</P>
+                <p><a class="btn btn-default" data-target="#modal1" data-toggle="modal">자세히 알아보기</a></p>
+            </div>
+            <div class="col-md-4">
+                <h4>Survey Factory의 기능</h4>
+                <P>Survey Factory에 개인의 구글설문지를 등록할 수 있고, <br>다른 대학생들의 설문지에 참여할 수 있습니다.</P><br>
+                <p><a class="btn btn-default" data-target="#modal2" data-toggle="modal">자세히 알아보기</a></p>
+            </div>
+        </div>
+        <hr>
+        <!--미디어/패널-->
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title"><span class="glyphicon glyphicon-pencil"></span>
+                    &nbsp;&nbsp;최신등록 설문 </h3>
+            </div>
+            <div class="panel-body">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="Participate.html"><img class="media-object" src="images/budget.png" alt="경상계열이미지"></a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a href="https://forms.gle/jWZDBAJPCVC43Jw58">&nbsp&nbsp&nbsp2020 주식시장 전망에 대한 설문조사</a>&nbsp;<span
+                                class="badge">New</span></h4>
+                        &nbsp&nbsp&nbsp&nbsp-경상계열 관련 설문조사
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <div class="media-left">
+                        <a href="Participate.html"><img class="media-object" src="images/flask.png" alt="이공계열 이미지"></a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a href="https://forms.gle/jWZDBAJPCVC43Jw58">&nbsp&nbsp&nbsp서울과학기술대학교 화학과 졸업논문 설문조사</a>&nbsp;<span
+                                class="badge">New</span></h4>
+                        &nbsp&nbsp&nbsp&nbsp-이공계열 관련 설문조사
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <div class="media-left">
+                        <a href="Participate.html"><img class="media-object" src="images/music.png" alt="예체능 이미지"></a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a href="https://forms.gle/jWZDBAJPCVC43Jw58">&nbsp&nbsp&nbsp연세대 음대 졸업공연 만족도 조사</a>&nbsp;<span
+                                class="badge">New</span></h4>
+                        &nbsp&nbsp&nbsp&nbsp-예체능계열 관련 설문조사
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--푸터-->
+    <footer style="background-color: lightslategrey; color: white;">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-sm-2" style="text-align: center;">
+                    <h5>Copyright &copy; 2019</h5>
+                    <h5>Survey Factory</h5>
+                </div>
+                <div class="col-sm-4">
+                    <h4>회사소개</h4>
+                    <p>Survey Factory는 구글폼을 다른 대학생들과 공유할 수 있는 사이트입니다.</p>
+                </div>
+                <div class="col-sm-2">
+                    <h4 style="text-align: center;">바로가기</h4>
+                    <div class="list-group">
+                        <a href="Register.html" class="list-group-item">Register</a>
+                        <a href="Participate.html" class="list-group-item">Participate</a>
+                        <a href="Contact.html" class="list-group-item">Contact</a>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <h4 style="text-align: center;">SNS</h4>
+                    <div class="list-group">
+                        <a href="https://www.facebook.com" class="list-group-item">Facebook</a>
+                        <a href="https://www.youtube.com" class="list-group-item">Youtube</a>
+                        <a href="http://seoultech.ac.kr" class="list-group-item">Seoultech</a>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <h4 style="text-align: center;">
+                        <span class="glyphicon glyphicon-user">&nbsp;정지용</span>
+                        <br>
+                        <span class="glyphicon glyphicon-earphone">&nbsp;홍제형</span>
+                        <br>
+                        <span class="glyphicon glyphicon-envelope">&nbsp;안진호</span>
+                        <br>
+                        <span class="glyphicon glyphicon-print">&nbsp;박은수</span>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--모달 창-->
+    <div class="row">
+        <div class="modal" id="modal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        Survey Factory 소개
+                        <button class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" style="text-align: center;">
+                        Survey Factory는 대학생들이 가장 많이 사용하는 설문조사 방법인 <br><br>구글설문지의 링크를 올릴 수 있는 사이트입니다. 다른 대학생들과 자신의 설문지를
+                        <br><br>공유하여 보다
+                        많은 결과값을 얻을 수 있습니다. 또한 자신이 관심이 있는 분야의<br><br> 설문조사에 참여할 수 있고, 여러 분야의 설문조사를 볼 수 있는 사이트입니다.
+                        <br><br>
+                        <img src="images/process.png" id="imagepreview" style="width: 256px; height: 256px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="modal" id="modal1" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        Survey Factory의 목표
+                        <button class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" style="text-align: center;">
+                        설문조사는 통계된 값이 많을수록 보다 정확한 결과값을 얻을 수 있습니다. <br><br>저희 사이트를 통해 많은 대학생들이 보다 편리하고 효율적으로<br><br> 설문조사를
+                        할 수 있도록 대학생
+                        설문조사 공유의 장이 되는 것이 <br><br>저희 Survey Factory의 목표입니다.<br><br>
+                        <img src="images/teamwork.png" id="imagepreview" style="width: 256px; height: 256px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="modal" id="modal2" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        Survey Factory의 기능
+                        <button class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" style="text-align: center;">
+                        Survey Factory에 자신의 설문지를 등록하고 다른 대학생들과 <br><br>공유하여 보다 많은 결과값을 얻을 수 있습니다. 또한 자신이 관심이 있는
+                        <br><br>분야의 설문지를 볼 수 있고
+                        자신이 원하는 모든 설문지에 참여가 가능합니다.<br><br>
+                        <img src="images/work.png" id="imagepreview" style="width: 256px; height: 256px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
